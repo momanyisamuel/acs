@@ -15,14 +15,14 @@ const Contact: React.FC = () => {
           />
         </div>
         {/* Bottom Title Bar */}
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-r from-[#003666]/90 to-[#004b8d]/80 flex items-center justify-center">
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-r from-[#6B2FA8]/90 to-[#8C41D2]/80 flex items-center justify-center">
              <h1 className="text-white text-5xl font-bold font-sans tracking-wide drop-shadow-md">Contact Us</h1>
         </div>
       </section>
 
       {/* Breadcrumb & Intro */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
-         <div className="text-sm text-[#004b8d] mb-4">
+         <div className="text-sm text-[#8C41D2] mb-4">
             <Link to="/" className="hover:underline">Home</Link> » Contact Us
          </div>
          <div className="border-b border-gray-200 border-dotted pb-6 mb-8">
@@ -36,31 +36,31 @@ const Contact: React.FC = () => {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 w-full">
         <div className="border border-gray-100 shadow-sm p-8 md:p-10 rounded-sm">
             
-            <p className="text-[#e31837] text-sm mb-6">* Required Information</p>
+            <p className="text-[#FC7801] text-sm mb-6">* Required Information</p>
             
             <form className="space-y-6">
                 
                 {/* Full Name */}
                 <div>
                     <label className="block text-xs font-bold text-gray-500 uppercase mb-2">
-                        Full Name <span className="text-[#e31837]">*</span>
+                        Full Name <span className="text-[#FC7801]">*</span>
                     </label>
                     <input 
                         type="text" 
                         placeholder="Enter full name here"
-                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#004b8d] transition-colors placeholder-gray-300" 
+                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#8C41D2] transition-colors placeholder-gray-300" 
                     />
                 </div>
 
                 {/* Address */}
                 <div>
                     <label className="block text-xs font-bold text-gray-500 uppercase mb-2">
-                        Address <span className="text-[#e31837]">*</span>
+                        Address <span className="text-[#FC7801]">*</span>
                     </label>
                     <input 
                         type="text" 
                         placeholder="Enter address here"
-                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#004b8d] transition-colors placeholder-gray-300" 
+                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#8C41D2] transition-colors placeholder-gray-300" 
                     />
                 </div>
 
@@ -68,17 +68,17 @@ const Contact: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <label className="block text-xs font-bold text-gray-500 uppercase mb-2">
-                            Email Address <span className="text-[#e31837]">*</span>
+                            Email Address <span className="text-[#FC7801]">*</span>
                         </label>
                         <input 
                             type="email" 
                             placeholder="example@domain.com"
-                            className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#004b8d] transition-colors placeholder-gray-300" 
+                            className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#8C41D2] transition-colors placeholder-gray-300" 
                         />
                     </div>
                     <div>
                         <label className="block text-xs font-bold text-gray-500 uppercase mb-2">
-                            Phone Number <span className="text-[#e31837]">*</span>
+                            Phone Number <span className="text-[#FC7801]">*</span>
                         </label>
                         <div className="flex items-stretch border border-gray-300 rounded-[3px] overflow-hidden">
                             <div className="bg-gray-50 px-3 flex items-center border-r border-gray-200">
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                             <input 
                                 type="tel" 
                                 placeholder="+1 (number)"
-                                className="w-full p-3 text-sm focus:outline-none focus:border-[#004b8d] transition-colors placeholder-gray-300" 
+                                className="w-full p-3 text-sm focus:outline-none focus:border-[#8C41D2] transition-colors placeholder-gray-300" 
                             />
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
                     <textarea 
                         rows={5}
                         placeholder="Enter your question or comment here"
-                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#004b8d] transition-colors placeholder-gray-300 resize-y" 
+                        className="w-full border border-gray-300 rounded-[3px] p-3 text-sm focus:outline-none focus:border-[#8C41D2] transition-colors placeholder-gray-300 resize-y" 
                     ></textarea>
                 </div>
 

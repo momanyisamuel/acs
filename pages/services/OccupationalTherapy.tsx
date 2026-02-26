@@ -1,0 +1,116 @@
+import React from 'react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const OccupationalTherapy: React.FC = () => {
+  const features = [
+    "Fine and gross motor skills development",
+    "Sensory processing intervention",
+    "Activities of daily living training",
+    "Adaptive equipment recommendations",
+    "Cognitive rehabilitation",
+    "Home and workplace modifications"
+  ];
+
+  return (
+    <div className="flex flex-col min-h-screen font-sans">
+      {/* Hero Banner */}
+      <section className="relative h-[400px] w-full">
+        <div className="absolute inset-0">
+          <img
+            className="w-full h-full object-cover"
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=2000"
+            alt="Occupational Therapy"
+          />
+          <div className="absolute inset-0 bg-[#8C41D2]/70"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
+          <div className="text-white">
+            <h4 className="text-sm font-medium uppercase tracking-widest mb-2 opacity-80">Our Services</h4>
+            <h1 className="text-5xl md:text-6xl font-bold uppercase leading-tight">
+              Occupational<br/>
+              <span className="text-[#FC7801]">Therapy</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            {/* Left Column - Description */}
+            <div>
+              <div className="inline-block bg-[#FC7801] text-white text-[10px] font-bold px-3 py-1.5 uppercase tracking-widest mb-6">
+                About This Service
+              </div>
+              <h2 className="text-[#8C41D2] text-4xl font-bold uppercase mb-6">
+                Enhancing Daily Living Skills
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Our Occupational Therapy services help individuals develop, recover, or maintain the skills 
+                needed for daily living and working. Our licensed occupational therapists work with people 
+                of all ages who have physical, sensory, or cognitive challenges.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                We take a holistic, client-centered approach to therapy, focusing on the activities that 
+                matter most to you. Whether you're recovering from an injury, managing a chronic condition, 
+                or adapting to changes in your abilities, our therapists will create a personalized 
+                treatment plan to help you achieve your goals.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                From improving fine motor skills to recommending adaptive equipment, our occupational 
+                therapy services are designed to maximize your independence and quality of life.
+              </p>
+            </div>
+
+            {/* Right Column - Features */}
+            <div className="bg-[#f8f9fa] p-10">
+              <h3 className="text-[#8C41D2] text-2xl font-bold uppercase mb-8">What We Offer</h3>
+              <ul className="space-y-4">
+                {features.map((feature, index) => (
+                  <li key={index} className="flex items-start gap-4">
+                    <CheckCircle className="h-6 w-6 text-[#FC7801] flex-shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              
+              <div className="mt-10 pt-8 border-t border-gray-200">
+                <p className="text-gray-600 mb-6">
+                  Ready to start your occupational therapy journey? Contact us to schedule an evaluation.
+                </p>
+                <Link 
+                  to="/contact" 
+                  className="bg-[#FC7801] text-white px-8 py-4 inline-flex items-center gap-3 hover:bg-[#D96600] transition-colors font-bold uppercase text-sm tracking-wider"
+                >
+                  Contact Us Today <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-[#8C41D2] py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-white text-3xl font-bold uppercase mb-4">
+            Explore Our Other Services
+          </h2>
+          <p className="text-white/80 mb-8 max-w-2xl mx-auto">
+            We offer a comprehensive range of support services designed to meet your unique needs.
+          </p>
+          <Link 
+            to="/programs" 
+            className="bg-[#FC7801] text-white px-10 py-4 inline-flex items-center gap-3 hover:bg-[#D96600] transition-colors font-bold uppercase tracking-wider"
+          >
+            View All Services <ArrowRight className="h-5 w-5" />
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default OccupationalTherapy;

@@ -11,21 +11,21 @@ const About: React.FC = () => {
           <img
             className="w-full h-full object-cover object-center"
             src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=2000"
-            alt="ICS Care Team"
+            alt="ACS Care Team"
           />
           {/* Blue Overlay Gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#004b8d]/90 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#8C41D2]/90 to-transparent"></div>
         </div>
         <div className="relative max-w-7xl mx-auto h-full px-4 flex items-end justify-center pb-10">
-          <h1 className="text-white text-5xl md:text-6xl font-bold uppercase tracking-wide drop-shadow-md">ICS</h1>
+          <h1 className="text-white text-5xl md:text-6xl font-bold uppercase tracking-wide drop-shadow-md">ACS</h1>
         </div>
       </section>
 
       {/* Intro Section */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         {/* Bordered Box Message */}
-        <div className="border border-[#e31837] border-dashed p-1 inline-block mb-10 shadow-sm max-w-3xl mx-auto bg-white">
-           <div className="border border-[#e31837] px-6 py-4 md:px-12 md:py-6 bg-white">
+        <div className="border border-[#FC7801] border-dashed p-1 inline-block mb-10 shadow-sm max-w-3xl mx-auto bg-white">
+           <div className="border border-[#FC7801] px-6 py-4 md:px-12 md:py-6 bg-white">
              <h2 className="text-2xl md:text-3xl text-gray-600 font-light leading-tight">
                Let us help you lead a fulfilling life and become an active member of your community.
              </h2>
@@ -34,7 +34,7 @@ const About: React.FC = () => {
 
         {/* Happy Person Image */}
         <div className="flex justify-center mb-10">
-          <div className="p-1 border-4 border-[#e31837] inline-block shadow-lg">
+          <div className="p-1 border-4 border-[#FC7801] inline-block shadow-lg">
              <img 
                src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=600&h=450" 
                alt="Happy woman smiling" 
@@ -46,40 +46,40 @@ const About: React.FC = () => {
         {/* Text Content */}
         <div className="max-w-4xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed text-justify md:text-center mb-16">
           <p>
-            If you're looking for quality support and assistance for persons with disabilities, <span className="font-bold text-[#e31837]">Inspiring Community Supports (ICS)</span> is your provider of choice. We strive to be a leading provider of inclusive support services, fostering a culture of acceptance, respect, and empowerment for all. We believe that everyone has the potential to make a valuable contribution to their community, and our range of services is designed to support and empower you in realizing that potential.
+            If you're looking for quality support and assistance for persons with disabilities, <span className="font-bold text-[#FC7801]">Accessibility Community Supports (ACS)</span> is your provider of choice. We strive to be a leading provider of inclusive support services, fostering a culture of acceptance, respect, and empowerment for all. We believe that everyone has the potential to make a valuable contribution to their community, and our range of services is designed to support and empower you in realizing that potential.
           </p>
         </div>
 
         {/* Why Choose Us */}
         <div className="mb-4">
-          <h2 className="text-[#004b8d] text-3xl md:text-4xl font-bold uppercase mb-12 text-center">Why Choose Us</h2>
+          <h2 className="text-[#8C41D2] text-3xl md:text-4xl font-bold uppercase mb-12 text-center">Why Choose Us</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 text-left max-w-6xl mx-auto">
             
             {/* Left Column */}
             <div className="space-y-6">
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will be transparent to all stakeholders
+                  <span className="font-bold text-[#FC7801]">ACS</span> will be transparent to all stakeholders
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will emphasize Community Inclusion/ Integration and self-advocacy
+                  <span className="font-bold text-[#FC7801]">ACS</span> will emphasize Community Inclusion/ Integration and self-advocacy
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will promote Family involvement
+                  <span className="font-bold text-[#FC7801]">ACS</span> will promote Family involvement
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will continuously evolve in staff training to enhance the quality of services to meet the demands of ever-changing expectations.
+                  <span className="font-bold text-[#FC7801]">ACS</span> will continuously evolve in staff training to enhance the quality of services to meet the demands of ever-changing expectations.
                 </p>
               </div>
             </div>
@@ -87,21 +87,21 @@ const About: React.FC = () => {
             {/* Right Column */}
             <div className="space-y-6">
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will provide support with integrity, quality, safe, healthy place to live while maximizing the independence of each client
+                  <span className="font-bold text-[#FC7801]">ACS</span> will provide support with integrity, quality, safe, healthy place to live while maximizing the independence of each client
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will utilize employment agency apps, social media, and word of mouth for employing staff
+                  <span className="font-bold text-[#FC7801]">ACS</span> will utilize employment agency apps, social media, and word of mouth for employing staff
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <Search className="h-5 w-5 text-[#004b8d] flex-shrink-0 mt-1 stroke-[3]" />
+                <Search className="h-5 w-5 text-[#8C41D2] flex-shrink-0 mt-1 stroke-[3]" />
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <span className="font-bold text-[#e31837]">ICS</span> will focus on investing in staff through mentorship programs, and professional development to minimize burnout and mental health issues.
+                  <span className="font-bold text-[#FC7801]">ACS</span> will focus on investing in staff through mentorship programs, and professional development to minimize burnout and mental health issues.
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3">
           
           {/* Mission */}
-          <div className="bg-[#004b8d] text-white p-10 md:p-14">
+          <div className="bg-[#8C41D2] text-white p-10 md:p-14">
             <h3 className="text-3xl font-bold uppercase mb-4">Mission</h3>
             <p className="text-sm leading-relaxed opacity-90">
               Our mission is to promote your well-being by providing comprehensive and compassionate support services that foster community inclusion, personal growth, and independence.
@@ -123,7 +123,7 @@ const About: React.FC = () => {
           </div>
 
           {/* Vision */}
-          <div className="bg-[#e31837] text-white p-10 md:p-14">
+          <div className="bg-[#FC7801] text-white p-10 md:p-14">
             <h3 className="text-3xl font-bold uppercase mb-4">Vision</h3>
             <p className="text-sm leading-relaxed opacity-90">
               Our vision is to see every individual enjoy full participation in their community, pursue their goals, and lead a fulfilling life while expanding our services and to continue growing our operations.
@@ -131,10 +131,10 @@ const About: React.FC = () => {
           </div>
 
           {/* Philosophy */}
-          <div className="bg-[#004b8d] text-white p-10 md:p-14">
+          <div className="bg-[#8C41D2] text-white p-10 md:p-14">
             <h3 className="text-3xl font-bold uppercase mb-4">Philosophy</h3>
             <p className="text-sm leading-relaxed opacity-90">
-              Through the empowerment of self-choice and the implementation of Person-Centered Tools, it is the philosophy of <span className="font-bold">Inspiring Community Supports (ICS)</span> to provide the highest level of opportunities for each individual to utilize their homes, workplaces, and communities to their greatest potential.
+              Through the empowerment of self-choice and the implementation of Person-Centered Tools, it is the philosophy of <span className="font-bold">Accessibility Community Supports (ACS)</span> to provide the highest level of opportunities for each individual to utilize their homes, workplaces, and communities to their greatest potential.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ const About: React.FC = () => {
 
       {/* Core Values */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        <div className="bg-[#e31837] p-1 shadow-lg">
+        <div className="bg-[#FC7801] p-1 shadow-lg">
           <div className="border-2 border-white p-8 md:p-12">
              <h2 className="text-3xl font-bold uppercase mb-8 text-white">Core Values</h2>
              
@@ -190,10 +190,10 @@ const About: React.FC = () => {
 
       {/* Who We Serve */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-        <div className="bg-[#e31837] p-1 shadow-lg">
+        <div className="bg-[#FC7801] p-1 shadow-lg">
           <div className="border-2 border-white p-8 md:p-12">
             <h2 className="text-3xl font-bold uppercase mb-2 text-white">Who We Serve</h2>
-            <h3 className="font-bold mb-6 text-white">ICS will serve clients:</h3>
+            <h3 className="font-bold mb-6 text-white">ACS will serve clients:</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
                <div className="flex items-center gap-2">
@@ -228,7 +228,7 @@ const About: React.FC = () => {
       {/* Footer CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 text-center md:text-left">
         <p className="text-gray-600">
-          To help us better assist you, don't hesitate to <span className="font-bold text-[#004b8d]">leave us a call</span>.
+          To help us better assist you, don't hesitate to <span className="font-bold text-[#8C41D2]">leave us a call</span>.
         </p>
       </section>
 
