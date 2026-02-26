@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
             Fixed width on desktop, full width on mobile.
             This container stretches to match the height of the right column.
         */}
-        <div className="lg:w-[340px] flex-shrink-0 bg-white border-r border-gray-200 flex flex-col justify-center items-center p-6 relative z-20">
+        <div className="lg:w-[340px] flex-shrink-0 bg-white border-r border-gray-200 flex flex-col justify-center items-center p-4 relative z-20">
             <Link to="/" className="flex flex-col items-center group">
               {/* Logo Image */}
-              <div className="relative h-28 w-28 md:h-32 md:w-32 flex items-center justify-center">
+              <div className="relative h-40 w-40 md:h-48 md:w-48 lg:h-52 lg:w-52 flex items-center justify-center">
                   <img src="/logo.png" alt="ACS Logo" className="w-full h-full object-contain" />
               </div>
             </Link>
