@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <div className="text-base opacity-95 space-y-1">
                 <p><span className="font-bold">Phone:</span> (732) 822-7353</p>
                 <p><span className="font-bold ml-[54px]"></span> (732) 357-5702</p>
-                <p className="mt-2"><a href="mailto:info@accessibilitycs.org" className="hover:underline"><span className="font-bold">info@accessibilitycs.org</span></a> - Community Services</p>
+                <p className="mt-2"><a href="mailto:info@accessibilitycs.org" className="hover:underline"><span className="font-bold">info@accessibilitysvc.com</span></a> - Community Services</p>
               </div>
             </div>
           </div>
